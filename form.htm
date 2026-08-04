@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h2>form pendaftaran</h2>
+    <form action="proses.php" method="post">
+<table>
+    <tr>
+        <td><label for="nama">Nama</label></td>
+        <td>:</td>
+        <td><input type="text" id="nama" name="nama" required></td>
+    </tr>
+    <tr>
+        <td><label for="email">Email</label></td>
+        <td>:</td>
+        <td><input type="email" id="email" name="email" required></td>
+    </tr>
+    <tr>
+        <td><label for="no hp">No Hp</label></td>
+        <td>:</td>
+        <td><input type="number" id="no hp" name="no hp" required></td>
+    </tr>
+    <tr>
+        <td><label for="tanggal lahir">Tanggal Lahir</label></td>
+        <td>:</td>
+        <td><input type="date" id="tanggal lahir" name="tanggal lahir" required></td>
+    </tr>
+    <tr>
+        <td><label for="jenis kelamin">Jenis Kelamin</label></td>
+        <td>:</td>
+        <td>
+            <input type="radio" id="laki-laki" name="jenis kelamin" value="laki-laki" required>
+            <label for="laki-laki">Laki-laki</label>
+            <input type="radio" id="perempuan" name="jenis kelamin" value="perempuan" required>
+            <label for="perempuan">Perempuan</label>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="hobi">Hobi</label></td>
+        <td>:</td>
+        <td>
+            <input type="checkbox" id="membaca" name="hobi" value="membaca">
+            <label for="membaca">Membaca</label>
+            <input type="checkbox" id="menulis" name="hobi" value="menulis">
+            <label for="menulis">Menulis</label>
+            <input type="checkbox" id="olahraga" name="hobi" value="olahraga">
+            <label for="olahraga">Olahraga</label>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="jurusan">Jurusan</label></td>
+        <td>:</td>
+        <td>
+            <select id="jurusan" name="jurusan" required>
+                <option value="rpl">RPL</option>
+                <option value="tkj">TKJ</option>
+                <option value="pg">PG</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="alamat">Alamat</label></td>
+        <td>:</td>
+        <td><textarea id="alamat" name="alamat" rows="4" cols="50" required></textarea></td>
+    </tr>
+    <tr>
+        <td><label for="foto">Foto</label></td>
+        <td>:</td>
+        <td><input type="file" id="foto" name="foto" accept="image/*" required></td>
+    </tr>
+     <tr>
+        <td>
+            <input type="submit" value="Submit">
+        </td>
+    </tr>
+</table>
+    </form>
+</body>
+</html>
