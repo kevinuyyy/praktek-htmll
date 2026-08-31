@@ -1,0 +1,26 @@
+#judul-hal2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:cyan;
+}
+h2{
+    color:red;
+    text-align: center;
+}
+p{
+     color:cyan;
+}
+p{
+    text-align: center;
+    font-size: 16px;
+}
+p{
+    background-color:blue;
+}
+.highlight1{
+    text-align:center;
+    color: cyan;
+}
+.highlight2{
+    text-align:center;
+    color: deepskyblue;
+}
