@@ -1,0 +1,8 @@
+.kartu.profil {
+    box-sizing: border-box;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
